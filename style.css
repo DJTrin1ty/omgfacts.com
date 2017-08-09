@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Homepage*/
+
+.imgcontainer1 {
+    width: 100%;
+    height: 685px;
+    background-image: url("assets/space.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+}
+
+li {
+    display: block;
+    list-style-type: none;
+    padding: 35px 15px 35px 15px;
+}
+
+li a img {
+    margin-top: -5px;
+    color: #447173;
+}
+
+a {
+    text-decoration: none;
+    color: #447173;
+}
+
+a:hover {
+    color: #284345;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #89C9CB;
+    height: 87px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bgimg1 {
+    height: 352px;
+    width: 100%;
+}
+
+.bgimg2 {
+    height: 352px;
+    width: 100%;
+}
+
+.mktcontainer {
+    width: 1144px;
+    padding: 25px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    display: inline;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.imgcontainer3 {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 0 10px 10px 0;
+    background-image: url("assets/ag.jpeg");
+}
+
+p {
+    color: gray;
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: arial;
+}
+
+.imgcontainer2 {
+    width: 100%;
+    height: 350px;
+    background-image: url("assets/bgimg1.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.boldtitle1 {
+    font-size: 44px;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.boldtitle {
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.tower {
+    display: column;
+    padding: 10px 0 0 25px;
+}
+
+.pcontent2 {
+    font-size: 16px;
+    font-family: arial;
+    margin: 20px 0;
+}
+
+.pcontent {
+    font-size: 16px;
+    font-family: arial;
+    margin: 10px 0;
+}
+
+ .container {
+    padding: 15px 50px 40px 40px;
+}
+
+.horizontal2 {
+    display: flex;   
+}
+
+.latest {
+    font-size: 30px;
+    margin-left: 475px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.flexbox2 img {
+    max-height: 274px;
+    max-width: 488px;
+}
+
+.boldtitle2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: arial;
+    margin-top: 15px;
+}
+
+.container2 {
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.flexbox1 img {
+    width: 650px;
+}
+
+.flexbox1 {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.boldtitle3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: arial;
+    display: inline;
+}
+
+.flexbox3 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.flexbox3 .photos img {
+    width: 317px;
+    height: 174px;
+    margin: 30px 25px 0 0;
+}
+
+footer {
+    background-color: #89C9CB;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85px;
+}
+
+footer li {
+    padding: 35px 15px 35px 10px;
+}
